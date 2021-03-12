@@ -1,0 +1,30 @@
+body{
+    background-color: powderblue;
+}
+h1 {
+    color: red;
+    font-family: "Trebuchet-MS", sans-serif;
+}
+p.p1 {
+    font-family: "Georgia, serif";
+}
+p.p2 {
+    font-family: "Georgia, serif";
+    font-size: 60%;
+}
+input[type=number] {
+  width: 50%;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    width: 25%;
+}
+.submit-button {
+    background-color: white;
+    color: black;
+    border: 2px solid color: black;
+    height: 130%;
+    width: 50%
+}

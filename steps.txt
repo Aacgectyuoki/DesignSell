@@ -1,0 +1,18 @@
+1. create textfile using HTML format
+2. create textfile using external CSS format, or
+    use internal CSS inside HTML textfile
+3. create documentation file (example: steps.txt)
+3. go to terminal, and change the directory ("cd") to 
+    "TCSMEANStackTraining" folder and again to "DesignSell" folder
+4. check the DesignSell folder using ls -a, and see if it has a ".git"
+    and ".gitignore". If it doesn't, type "git commit" and then "touch .gitignore".
+5. run some commands in this order
+    a. git add .
+    b. git status
+    c. git commit -m "files added"
+    d. git push master HEAD
+8. log onto your GitHub
+9. take a screenshot of your output, and also your HTML code
+10. create a .gitignore text file inside the main folder
+    - I don't want the "steps.txt" or any of screenshots to show
+11. repeat step #5

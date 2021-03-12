@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css_file">
+</head>
+<body>
+    <form  oninput="parseInt(x.value)">
+        <h1>Design Sell</h1>
+        <p class="p1">Type the amount of money you either want to pay or receive</p>
+        <p class="p2">Tip: Click "Pay" as much as you want and click "Recieve" as much as you want
+        </br>Click "Submit" once you're done, and want a final payment price</p>
+        <input type="number" id="x" min="0.00" step="0.01" pattern = "\d?\d\.\d\d" value="">
+        </br>
+        <p class="p2"></p>
+        <button class="button button1">Pay</button>
+        <button class="button button1">Receive</button>
+        </br>
+        <p class="p2"></p>
+        <button class="button submit-button">Submit</button>
+        <p class="p2"></p>
+        <output>Amount = </output>
+    </form>
+</body>
+</html>
